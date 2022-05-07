@@ -11,15 +11,15 @@ using namespace std;
 
 int main()
 {
-	double salesPercentage = 0.58;
-	double generatedSales = 8600000;
+	double salesPercentage = 0.58; // holds the value of the sales percentage
+	double generatedSales = 8600000; //holds the value of generated sales
 
-	int total;
+	int total; // holds total
 
 
-	total = salesPercentage * generatedSales;
+	total = salesPercentage * generatedSales; // multiplies sales percentage and generated sales together
 
-	cout << "The East Coast division will generate $" << total <<  " in sales" << endl;
+	cout << "The East Coast division will generate $" << total <<  " in sales" << endl; //outputs total sales value
 
 	return 0;
 
