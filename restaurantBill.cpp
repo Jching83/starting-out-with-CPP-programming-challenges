@@ -7,7 +7,7 @@ amount, and total bill on the screen.
 */
 
 #include <iostream>
-#include <iomanip>
+#include <iomanip> //used to set precision with decimal places
 
 using namespace std;
 
