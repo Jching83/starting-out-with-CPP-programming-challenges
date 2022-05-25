@@ -16,6 +16,7 @@ int main()
 	cout << "Enter a number between 1-10: ";
 	cin >> num;
 
+	//switch statements to output the roman numerals I-X
 	switch (num)
 	{
 	case 1: cout << "you entered the number: I" << endl;
@@ -41,6 +42,7 @@ int main()
 
 	}
 
+	//error cases to prevent numbers less than 1 or greater than 10
 	if (num < 1)
 		cout << "number cannot be less than 1.";
 	if (num > 10)
